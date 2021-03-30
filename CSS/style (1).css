@@ -68,4 +68,8 @@
 .comparisonImg:hover{
     opacity: 0.6;
 }
+.table-scroll {
+	height: 400px !important;
+    overflow-y: scroll;
+}
 

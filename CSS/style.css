@@ -60,9 +60,9 @@
 }
 
 .comparisonImg{
-    width: 140px;
-    height: 140px;
-    
+    float:left;
+    width: 50%;
+    padding: 5px;
 }
 
 .comparisonImg:hover{
@@ -73,11 +73,6 @@
     overflow-y: scroll;
 }
 
-.comparison2{
-    float:right;
-    width: 50%;
-    padding: 5px;
-}
 /*clearfix(clearfloat */
 .row::after {
     content: "";

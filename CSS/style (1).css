@@ -73,3 +73,15 @@
     overflow-y: scroll;
 }
 
+.column{
+    float:right;
+    width: 50%;
+    padding: 5px;
+}
+/*clearfix(clearfloat */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
